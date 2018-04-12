@@ -28,7 +28,7 @@ exports.handler = function (event, context, callback) {
 			let successCount = 0;
 			let failedCount = 0;
 
-			console.log(`${numFiles} files found to process`);
+			console.log(`${numFiles} files found`);
 		})
 		.catch(err => {
 			console.log(err, err.stack); // an error occurred
